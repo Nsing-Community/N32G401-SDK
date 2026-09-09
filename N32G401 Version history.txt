@@ -1,0 +1,68 @@
+﻿Nations.N32G401_Library.2.1.0：
+1.修改EXTI DEMO
+2.解决AC6编译问题
+3.优化RTC_CLKSource_Config函数
+4.优化RTC驱动函数RTC_Time_Get
+5.修改AFIO_PXX_DIGEFT宏定义
+6.添加应用笔记工程
+7.修改USART波特率计算函数
+8.修改宏定义COMP3_INMSEL_PB0为COMP3_INMSEL_PA7
+9.FLASH页擦函数增加地址判断
+10.USARTdemo中新增OREF查询的处理、RX IO改成上拉
+
+Nations.N32G401_Library.2.0.0：
+1.删除DEMO中DBG配置和描述
+2.修改USART DEMO中USART宏定义问题
+3.在系统初始化和ADC TEMP DEMO中修改获取NVR函数
+4.优化PWR_SLEEP DEMO，修正GPIO_EXTI_Line_Set函数的输入参数
+5.优化PWR_STOP0 DEMO，修正GPIO_EXTI_Line_Set函数的输入参数
+6.修改RTC_Initialization_Mode_Enter函数
+7.修改RCC、I2C例程错误处理方式
+8.优化BEEPER demo
+9.修改RTC demo，增加RTC初始化判断
+10.优化PWR_AlarmWakeUpSTOP2和PWR_STOP0 DEMO
+11.U(S)ART增加中断错误处理
+12.修改DEMO中结构体初始化
+13.修改DMA_Reset函数，修改DMA_REMAP_TIM8_CH3宏定义值
+14.修改CompOut demo，增加比较器中断功能
+15.更新I2C驱动，修改模拟滤波使能函数
+16.修改USART TX GPIO配置
+17.修改SDK中的中文字符
+
+Nations.N32G401_Library.1.0.0：
+初始版本
+
+Nations.N32G401_Library.2.1.0：
+1.Modify get EXTI interrupt flag function
+2.Solve AC6 compilation problem
+3.Modify RTC_CLKSource_Config function
+4.Modify RTC_Time_Getfunction in rtc.c
+5.Modify AFIO_PXX_DIGEFT macro definition
+6.Add application project
+7.Modify the USART baud rate calculation driver
+8. Modify the macro definition of COMP3_INMSEL_PB0 to COMP3_INMSEL_PA7
+9. FLASH page erase function adds address detection
+10. Processing of OREF queries added in USARTdemo and changing RX IO to pull-up
+
+Nations.N32G401_Library.2.0.0：
+1.Delect DBG configuration and discription in DEMO
+2.Modify USART macro definition problem in USART DEMO
+3.Modify get nvr function in system initialization and ADC TEMP DEMO
+4.Optimize PWR_SLEEP DEMO, correct input parameters of GPIO_EXTI_Line_Set function
+5.Optimize PWR_STOP0 DEMO, correct input parameters of GPIO_EXTI_Line_Set function
+6.Modify RTC_Initialization_Mode_Enter function
+7.Modify the error handling of RCC and I2C routines.
+8.Optimize BEEPER demo
+9.Optimize RTC demo，add RTC initialization judgment
+10.Optimize PWR_AlarmWakeUpSTOP2 and PWR_STOP0 DEMO
+11.U(S)ART adds interrupt error handling
+12.Modify DEMO structure initialization
+13.Modify DMA_Reset function, modify the value of the DMA_REMAP_TIM8_CH3 macro definition
+14.Optimize CompOut demo，add COMP interrupt function
+15.Update I2C API，modified analog filter enable function
+16.Modify USART TX GPIO configuration
+17.Modify  the Chinese characters in the SDK
+
+
+Nations.N32G401_Library.1.0.0：
+Initial release
